@@ -21,8 +21,5 @@ public class CarDaoImp implements CarDao{
             return cars.subList(0,n);
         } else return cars;
     }
-    @Override
-    public List<Car> listCars() {
-        return cars;
-    }
+
 }

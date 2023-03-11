@@ -14,8 +14,4 @@ public class CarServiceImp implements CarService{
     public List<Car> getNCars(int n){
         return carDao.getNCars(n);
     }
-    @Override
-    public List<Car> listCars(){
-        return carDao.listCars();
-    }
 }
